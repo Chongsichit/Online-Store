@@ -1,0 +1,165 @@
+html, body{ /*parent*/
+    font-family: 'Fugaz One', cursive;
+    background-color: #FFFFFF; /*background color*/
+    margin: 0; /*4:上-右-下-左, 3:上-下-左右 2:上下-左右* 1-上下左右, length or % or auto*/
+    color: black;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+}
+
+#name {
+    color: #bd4c82;
+}
+
+button.btn{
+    background-color: #bd4c82;
+    border: #bd4c82;
+}
+
+h1{
+    margin: 5%;
+    text-align: center;
+    font-size: 100px;
+    color: black;
+}
+img.mainpics{
+    display: block;
+    height: auto;
+    width: 90%;
+    margin: auto 5%;
+}
+
+p.author{
+    font-family: 'Nanum Pen Script', cursive;
+    margin: 10% auto 0 auto;
+    float: bottom;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+p.titles{
+    text-align: center;
+    font-size: 40px;
+    margin: 3% auto;
+}
+
+p.hotitem{
+    text-align: center;
+    font-size: 40px;
+    margin: 3% auto;
+}
+
+div.cata{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto 5%;
+}
+
+div.cataitems{
+    flex:1 1 0px;
+    text-align: center;
+}
+
+div.cataitems > * img {
+    width: 100%;
+}
+
+div.cataitems > * a {
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    line-height: 1;
+}
+
+p.cataname{
+    margin: 3%;
+}
+
+div.container-fluid{
+    margin: auto 5%;
+    width: 90%;
+}
+
+a.website{
+    color: blue;
+}
+
+p.address{
+    text-align: center;
+}
+
+p.addressproduct{
+    float: left;
+}
+
+div.row{
+    width: 100%;
+}
+
+div.col-sm-5 {
+    float: left;
+}
+
+img.productimg{
+    width: 80%;
+}
+
+table{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    width: 50%;
+    border: none;
+}
+
+p.addressproduct{
+    text-align: right;
+}
+
+img.productphoto{
+    padding: 8%;
+    border: grey solid 1px;
+    width: 100%;
+    margin: 3% 0;
+}
+
+a {
+    color: black;
+    text-align: center;
+}
+
+p.productname{
+    margin: 3%;
+}
+
+p.addtoCart{
+    width: inherit;
+    padding: 5%;
+    border: #bd4c82 solid 1px;
+    color: #bd4c82;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.productinfo{
+    padding: 5%;
+    border: #5d5b59 solid 1px;
+}
+
+span.word{
+    font-family: 'Kalam', cursive;
+    color: #5d5b59;
+}
+/*width:（元素的寬度）*/
+/*text-shadow:在元素內的文字上設置陰影*/
+/*display: 設置元素的顯示模式（後面會詳細介紹）*/
